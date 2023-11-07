@@ -1,0 +1,110 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-image: url("../img/kep10.jpg");
+    background-repeat: repeat;
+    background-size: 485px;
+}
+
+body p {
+  color: #fff;
+}
+
+body h2 {
+  color: #fff;
+}
+
+.container {
+ background-color: #6A5456;
+}
+
+.custom-navbar {
+    background-color: #6A5456;
+}
+
+.custom-navbar a {
+    color: #fff;
+}
+
+.navbar-brand {
+    margin-right: auto; /* A weboldal nevét balra igazítjuk */
+}
+
+  .footer-basic {
+    padding:40px 0;
+    background-color: #6A5456;;
+    color: #fff;;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#fff;
+    margin-bottom:0;
+  }
+
+  .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} 
+
+/*Telefon*/
+@media only screen and (max-width: 600px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+}
